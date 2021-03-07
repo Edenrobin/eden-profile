@@ -1,0 +1,105 @@
+
+
+
+.text-center {
+	font-size:80px;
+	text-align: center;
+}
+div {
+	border-top: 3px solid blue;
+	border-right: 3px solid blue;
+	border-bottom: 3px solid blue;
+	border-left: 3px solid blue;
+    border-radius: 50px
+	width: 100px;
+	margin: 50;
+	padding: 100px;
+}
+body {
+	color:#242F6A;
+	font-size: 17px;
+	font-weight: lighter;
+	font-family: 'Lato', serif;
+	text-align: center;
+	background-color:#C7C9D1;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #242F6A;
+	font-size:40px;
+	font-weight: 900;
+}
+h2 {
+	color: #04395e;
+	font-size:25px;
+	font-weight: normal;
+	font-weight: 500;
+}
+h3 {
+	padding: 0px;
+    background: #adfcf9;
+    margin: 50px;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: black;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 720px) {
+	.container {
+		background-color: blue;
+		width:400px;
+	}
+}
+.card-white1 {
+	background-color: #adfcf9;
+	padding: 10px;
+	box-shadow: 10px 10px 10px #04395e;
+	border-radius: 4px;
+	margin: 50px 400px;
+	text-align: center;
+}
+.card-white2 {
+	background-color: #adfcf9;
+	padding: 0px;
+	box-shadow: 10px 10px 10px #04395e;
+	border-radius: 4px;
+	margin: 50px 400px;
+	text-align: center;
+}
+.card-white3 {
+	background-color: #adfcf9;
+	padding: 0px;
+	box-shadow: 10px 10px 10px #04395e;
+	border-radius: 4px;
+	margin: 50px 400px;
+	text-align: center;
+}
+.card-white4 {
+	background-color: #adfcf9;
+	padding: 0px;
+	box-shadow: 10px 10px 10px #04395e;
+	border-radius: 4px;
+	margin: 50px 400px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 100%;
+}
+.list-inline {
+	list-style: none;
+	text-align: center;
+	margin-right: 50px;
+}
+
